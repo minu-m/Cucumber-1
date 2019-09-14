@@ -1,0 +1,12 @@
+package steps;
+
+import utils.SeleniumDriver;
+
+public class BeforeSetup {
+	
+	public static void setUp(){
+		
+		SeleniumDriver.setUpDriver();
+	}
+
+}
